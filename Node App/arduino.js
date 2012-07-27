@@ -11,7 +11,7 @@
 var express = require("express");
 var SerialPort = require("serialport").SerialPort;
 
-var ardPort "/dev/tty.usbmodem1d11"; // Put here your arduino Port
+var ardPort = "/dev/tty.usbmodem1d11"; // Put here your arduino Port
 
 var serialPort = new SerialPort(ardPort);
 
